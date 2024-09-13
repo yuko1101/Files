@@ -359,6 +359,15 @@ namespace Files.App.Data.Factories
 				},
 				new ContextMenuFlyoutItemViewModel()
 				{
+					Text = "File".GetLocalizedResource(),
+					Glyph = "\uE7C3",
+					Command = commandsViewModel.CreateNewFileCommand,
+					ShowInFtpPage = true,
+					ShowInZipPage = true,
+					IsEnabled = !itemsSelected && currentInstanceViewModel.CanCreateFileInPage
+				},
+				new ContextMenuFlyoutItemViewModel()
+				{
 					ThemedIconModel = new ThemedIconModel()
 					{
 						ThemedIconStyle = Commands.AddItem.Glyph.ThemedIconStyle
