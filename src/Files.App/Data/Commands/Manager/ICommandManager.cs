@@ -205,5 +205,8 @@ namespace Files.App.Data.Commands
 		IRichCommand GitSync { get; }
 
 		IRichCommand OpenAllTaggedItems { get; }
+
+		
+		IRichCommand CreateFile { get; }
 	}
 }

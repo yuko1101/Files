@@ -2,6 +2,7 @@
 // Licensed under the MIT License. See the LICENSE.
 
 using Files.App.Actions;
+using Files.App.Actions.FileSystem;
 using Microsoft.Extensions.Logging;
 using System.Collections.Frozen;
 using System.Collections.Immutable;
@@ -211,6 +212,8 @@ namespace Files.App.Data.Commands
 		public IRichCommand GitPush => commands[CommandCodes.GitPush];
 		public IRichCommand GitSync => commands[CommandCodes.GitSync];
 		public IRichCommand OpenAllTaggedItems => commands[CommandCodes.OpenAllTaggedItems];
+
+		public IRichCommand CreateFile => commands[CommandCodes.CreateFile];
 		#endregion
 
 		public CommandManager()
@@ -403,6 +406,8 @@ namespace Files.App.Data.Commands
 			[CommandCodes.GitPush] = new GitPushAction(),
 			[CommandCodes.GitSync] = new GitSyncAction(),
 			[CommandCodes.OpenAllTaggedItems] = new OpenAllTaggedActions(),
+
+			[CommandCodes.CreateFile] = new CreateFileAction(),
 		};
 
 		/// <summary>

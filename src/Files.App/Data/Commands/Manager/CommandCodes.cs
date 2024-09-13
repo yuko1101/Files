@@ -226,5 +226,8 @@ namespace Files.App.Data.Commands
 
 		// Tags
 		OpenAllTaggedItems,
+
+		// yuko
+		CreateFile
 	}
 }
