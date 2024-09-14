@@ -49,7 +49,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files.App.UITests", "tests\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files.App.Controls", "src\Files.App.Controls\Files.App.Controls.csproj", "{83FF8729-CC76-43E2-976F-47F0A187FC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files.App.CsWin32", "src\Files.App.CsWin32\Files.App.CsWin32.csproj", "{4803E2CB-3E27-447D-94FC-45B5F96E4F7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files.App.CsWin32", "src\Files.App.CsWin32\Files.App.CsWin32.csproj", "{4803E2CB-3E27-447D-94FC-45B5F96E4F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -561,9 +561,11 @@ Global
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Preview|x86.ActiveCfg = Preview|x86
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Release|arm64.ActiveCfg = Release|arm64
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Release|x64.ActiveCfg = Release|x64
+		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Release|x64.Build.0 = Release|x64
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Release|x86.ActiveCfg = Release|x86
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Stable|arm64.ActiveCfg = Stable|arm64
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Stable|x64.ActiveCfg = Stable|x64
+		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Stable|x64.Build.0 = Stable|x64
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Stable|x86.ActiveCfg = Stable|x86
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Store|arm64.ActiveCfg = Store|arm64
 		{83FF8729-CC76-43E2-976F-47F0A187FC7E}.Store|x64.ActiveCfg = Store|x64

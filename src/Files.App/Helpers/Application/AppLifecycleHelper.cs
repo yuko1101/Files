@@ -115,6 +115,7 @@ namespace Files.App.Helpers
 		/// </summary>
 		public static void ConfigureSentry()
 		{
+			return;
 			SentrySdk.Init(options =>
 			{
 				options.Dsn = Constants.AutomatedWorkflowInjectionKeys.SentrySecret;
